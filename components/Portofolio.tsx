@@ -100,10 +100,11 @@ export function Portofolio() {
             <AvatarFallback>B</AvatarFallback>
           </Avatar>
           <div>
-            <h2 className="text-4xl font-bold mb-4">Hi, I&apos;m Rico Wijaya</h2>
-            <p className="text-xl text-zinc-600 dark:text-zinc-400 mb-6 max-w-2xl">
-            Passionate web developer specializing in Laravel, with proficiency in Next.js and React. I create dynamic, user-friendly applications, ensuring high performance and scalability. Committed to continuous learning and eager to contribute to innovative projects.
-            </p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Hi, I&apos;m Rico Wijaya</h2>
+<p className="text-lg md:text-xl text-zinc-600 dark:text-zinc-400 mb-6 max-w-2xl">
+    Passionate web developer specializing in Laravel, with proficiency in Next.js and React. I create dynamic, user-friendly applications, ensuring high performance and scalability. Committed to continuous learning and eager to contribute to innovative projects.
+</p>
+
             <div className="flex justify-center space-x-4">
               <Button variant="outline" size="icon" className="border-zinc-200  dark:border-zinc-800">
                 <a href="https://github.com/bezicalboy" target="_blank" rel="noopener noreferrer">
