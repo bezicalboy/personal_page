@@ -141,9 +141,9 @@ export function Portofolio() {
           <div className="grid gap-6 md:grid-cols-2">
             {[
               { title: 'Laravel Movie Info', description: 'A Laravel api app using livewire to see movie,series and artist info using AMDB API', image: '/img/01.png', link: 'https://test1.com' },
-              { title: 'Example 2', description: 'A productivity app created using Next.js and GraphQL', image: '/img/02.png', link: 'https://test2.com' },
-              { title: 'Example 3', description: 'A customizable portfolio template for developers', image: '/img/03.png', link: 'https://test3.com' },
-              { title: 'Weather Dashboard', description: 'Real-time weather app with geolocation and forecasts', image: '/placeholder.svg?height=200&width=400', link: 'https://test4.com' },
+              { title: 'Example 2', description: 'A aaaaaaaaa', image: '/img/02.png', link: 'https://test2.com' },
+              { title: 'Example 3', description: 'A ssssssssssss', image: '/img/03.png', link: 'https://test3.com' },
+              { title: 'Example 4', description: 'Rxz-txzxzs', image: '/placeholder.svg?height=200&width=400', link: 'https://test4.com' },
             ].map((project, index) => (
               <Card key={index} className="flex flex-col overflow-hidden transition-all hover:shadow-lg dark:bg-zinc-800 dark:border-zinc-700">
                 <CardHeader>
