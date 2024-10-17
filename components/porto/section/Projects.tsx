@@ -24,20 +24,6 @@ const Projects = () => {
             demoLink: 'https://test2.com',
             sourceLink: 'https://github.com/bezicalboy/example2',
           },
-          {
-            title: 'Example 3',
-            description: 'A ssssssssssss',
-            image: '/img/03.png',
-            demoLink: 'https://test3.com',
-            sourceLink: 'https://github.com/bezicalboy/example3',
-          },
-          {
-            title: 'Example 4',
-            description: 'Rxz-txzxzs',
-            image: '/placeholder.svg?height=200&width=400',
-            demoLink: 'https://test4.com',
-            sourceLink: 'https://github.com/bezicalboy/example4',
-          },
         ].map((project, index) => (
           <Card key={index} className="flex flex-col overflow-hidden transition-all hover:shadow-lg dark:bg-zinc-800 dark:border-zinc-700">
             <CardHeader>
