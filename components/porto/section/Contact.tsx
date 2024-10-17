@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section id="contact" className="text-center animate-fade-up">
       <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
-      <Card className="max-w-md mx-auto dark:bg-zinc-800 dark:border-zinc-700">
+      <Card className="max-w-md mx-auto dark:bg-zinc-900 dark:border-zinc-700">
         <CardHeader>
           <CardTitle>Contact Information</CardTitle>
           <CardDescription className="dark:text-zinc-400">Feel free to reach out for collaborations or just a friendly hello</CardDescription>

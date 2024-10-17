@@ -39,7 +39,7 @@ export default function Header() {
     </a>
   );
   return (
-    <header className="sticky top-0 z-10 w-full backdrop-blur-sm bg-white/90 dark:bg-zinc-900/90 border-b border-zinc-200 dark:border-zinc-800">
+    <header className="sticky top-0 z-10 w-full backdrop-blur-sm bg-white/90 dark:bg-zinc-950 border-b border-zinc-200 dark:border-zinc-800">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <h1 className="text-2xl font-bold --font-poppins">BEZICAL</h1>
         <div className="flex items-center space-x-4">

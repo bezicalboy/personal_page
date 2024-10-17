@@ -14,18 +14,18 @@ const Projects = () => {
             title: 'Laravel Movie Info',
             description: 'A Laravel APP, providing real-time access to movie, TV series, and artist information',
             image: '/img/01.png',
-            demoLink: 'doesnt have',
+            demoLink: 'null',
             sourceLink: 'https://github.com/bezicalboy/laravel-movie-info',
           },
           {
             title: 'Laravel User Role Management',
             description: 'A Laravel app that lets you change user roles and restricts actions based on those roles.',
             image: '/img/02.png',
-            demoLink: 'https://test2.com',
+            demoLink: 'null',
             sourceLink: 'https://github.com/bezicalboy/example2',
           },
         ].map((project, index) => (
-          <Card key={index} className="flex flex-col overflow-hidden transition-all hover:shadow-lg dark:bg-zinc-800 dark:border-zinc-700">
+          <Card key={index} className="flex flex-col overflow-hidden transition-all hover:shadow-lg dark:bg-zinc-900 dark:border-zinc-700">
             <CardHeader>
               <CardTitle>{project.title}</CardTitle>
             </CardHeader>
@@ -36,8 +36,11 @@ const Projects = () => {
             <CardFooter className="flex gap-2">
               <Button
                 variant="outline"
-                className="flex-1 group transition ease-in-out hover:scale-105 hover:bg-zinc-900 hover:text-white border-zinc-200 dark:border-zinc-700 dark:hover:bg-zinc-800"
-                onClick={() => window.open(project.demoLink, '_blank')}
+                className={`flex-1 group transition ease-in-out hover:scale-105 ${
+                  project.demoLink === 'null' ? 'cursor-not-allowed opacity-50' : 'hover:bg-zinc-900 hover:text-white'
+                } border-zinc-200 dark:border-zinc-700 dark:hover:bg-zinc-800`}
+                onClick={() => project.demoLink !== 'null' && window.open(project.demoLink, '_blank')}
+                disabled={project.demoLink === 'null'}
               >
                 <ExternalLink className="mr-2 h-4 w-4 transition-transform group-hover:translate-x-1" /> Live Demo
               </Button>

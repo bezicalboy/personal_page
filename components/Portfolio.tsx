@@ -18,7 +18,7 @@ import Skills from './porto/section/Skills';
 
 export function Portfolio() {
   return (
-    <div className="min-h-screen bg-white dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100 flex flex-col items-center">
+    <div className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 flex flex-col items-center">
       <Header />
       <main className="container mx-auto px-4 py-8 space-y-24 max-w-4xl">
         <About />
