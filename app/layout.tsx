@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
-import { Source_Code_Pro } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import './globals.css';
 
-const scpro = Source_Code_Pro({
+const scpro = Inter({
   weight: ['200', '300', '400', '500', '600', '700', '900'],
   subsets: ['latin'],
   variable: '--font-scpro',
