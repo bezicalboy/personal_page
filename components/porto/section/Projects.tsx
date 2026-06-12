@@ -11,6 +11,13 @@ const Projects = () => {
       <div className="grid gap-6 md:grid-cols-2">
         {[
           {
+            title: 'Invoice Vault',
+            description: 'A full-stack invoicing platform for managing clients, invoices, and business billing workflows',
+            image: '/img/03.png',
+            demoLink: 'null',
+            sourceLink: 'https://github.com/bezicalboy/invoice-vault',
+          },
+       {
             title: 'Laravel Movie Info',
             description: 'A Laravel APP, providing real-time access to movie, TV series, and artist information',
             image: '/img/01.png',
