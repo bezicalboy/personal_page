@@ -17,6 +17,13 @@ const Projects = () => {
             demoLink: 'null',
             sourceLink: 'https://github.com/bezicalboy/invoice-vault',
           },
+         {
+            title: 'LeadFlow CRM',
+            description: 'A full-stack CRM platform for tracking leads, managing sales pipelines, and boosting team productivity',
+            image: '/img/04.png',
+            demoLink: 'null',
+            sourceLink: 'https://github.com/bezicalboy/LeadFlow-CRM',
+          },
        {
             title: 'Laravel Movie Info',
             description: 'A Laravel APP, providing real-time access to movie, TV series, and artist information',
