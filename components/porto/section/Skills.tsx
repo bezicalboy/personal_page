@@ -1,19 +1,35 @@
-import { Badge } from '@/components/ui/badge';
 import React from 'react';
+
+const skills = [
+  'Laravel',
+  'PHP',
+  'React',
+  'Next.js',
+  'TypeScript',
+  'JavaScript',
+  'Node.js',
+  'MySQL',
+  'MongoDB',
+  'Git',
+  'Photoshop',
+  'After Effects',
+];
 
 const Skills = () => {
   return (
-    <section id="skills" className="text-center animate-fade-up">
-      <h2 className="text-3xl font-bold mb-6">Skills</h2>
-      <div className="flex flex-wrap justify-center gap-3">
-        {['Laravel', 'PHP', 'React', 'Node.js', 'TypeScript', 'JavaScript', 'Next.js', 'MySQL', 'MongoDB', 'Git', 'Photoshop', 'After Effects'].map((skill) => (
-          <Badge
+    <section id="skills" className="animate-fade-up scroll-mt-24">
+      <div className="mb-10">
+        <p className="text-sm font-medium uppercase tracking-widest text-brand">Toolkit</p>
+        <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Skills &amp; Technologies</h2>
+      </div>
+      <div className="flex flex-wrap gap-2.5">
+        {skills.map((skill) => (
+          <span
             key={skill}
-            variant="secondary"
-            className="text-md py-2 px-4 duration-300 bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-900 hover:text-white  hover:scale-110 dark:hover:bg-zinc-700 text-zinc-900 dark:text-zinc-100 transition-all"
+            className="rounded-full border border-border bg-secondary/50 px-4 py-2 text-sm font-medium text-foreground transition-all duration-300 hover:-translate-y-0.5 hover:border-brand/50 hover:bg-secondary"
           >
             {skill}
-          </Badge>
+          </span>
         ))}
       </div>
     </section>
